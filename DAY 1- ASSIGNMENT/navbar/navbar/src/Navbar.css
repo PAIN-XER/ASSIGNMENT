@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options ul {
+  display: flex;
+}
+
+.options ul li {
+  list-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+
+.navbar i {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar li {
+      display: none;
+    }
+  }
+
+
+@media screen and (min-width: 480px) {
+  .navbar i {
+    display: none;
+  }
+}
